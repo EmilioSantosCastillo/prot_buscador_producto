@@ -4,3 +4,5 @@ services:
     restart: always
     env_file:
       - .env
+    volumes:
+      - ./lens_json:/app/lens_json
